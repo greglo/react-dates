@@ -36,6 +36,7 @@ node_modules
 lib
 esm
 .idea
+*.iml
 
 # gh-pages
 _gh-pages
