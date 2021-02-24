@@ -391,7 +391,7 @@ class DateRangePicker extends React.PureComponent {
 
     if (withPortal || withFullScreenPortal || appendToBody) {
       return (
-        <Portal key="day-picker-portal">
+        <Portal>
           {this.renderDayPicker()}
         </Portal>
       );
